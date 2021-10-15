@@ -1,7 +1,5 @@
 # Light Field Style Transfer With Local Angular Consistency
-
-
-Implementation of Light Field Style Transfer with Local Angular Consistency
+This repository contains the implementation for the paper Light Field Style Transfer with Local Angular Consistency [1].
 
 Additional information and results are available on the [project webpage](https://v-sense.scss.tcd.ie/research/neural-style-transfer-for-light-fields/)
 
@@ -30,4 +28,6 @@ The script for the LFAC is in LightFieldAngularConsistency.m. It takes as input 
 
 
 ## References
+[1] D. Egan, M. Alain and A. Smolic, "Light Field Style Transfer with Local Angular Consistency," ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2021, pp. 2300-2304, doi: 10.1109/ICASSP39728.2021.9414689.
+
 [2] P. David, M. L. Pendu, and C. Guillemot, “Angularly consistent light field video interpolation,” in Proc. IEEE ICME, 2020, pp. 1–6
