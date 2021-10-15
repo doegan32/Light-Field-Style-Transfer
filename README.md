@@ -5,7 +5,7 @@ Implementation of Light Field Style Transfer with Local Angular Consistency
 ## Light field conventions
 
 ## Metrics
-We also provide MATLAB scripts for the LFEC metric [] and our proposed LFAC metric. 
+We also provide MATLAB scripts for the LFEC metric [2] and our proposed LFAC metric [1]. 
 
 ### Light Field Angular Consistency (LFAC) metric
 
