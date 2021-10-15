@@ -39,3 +39,5 @@ The script for the LFAC is in LightFieldAngularConsistency.m. It takes as input 
 [3] M. Ruder, A. Dosovitskiy and T. Brox, "Artistic style transfer for videos and spherical images", International Journal of Computer Vision, vol. 126, no. 11, pp. 1199-1219, 2018.
 
 [4] P. David, M. L. Pendu, and C. Guillemot, “Angularly consistent light field video interpolation,” in Proc. IEEE ICME, 2020, pp. 1–6
+
+[5] K. Simonyan and Andrew Zisserman, “Very deep convolutional networks for large-scale image recognition,” CoRR, vol. abs/1409.1556, 2015
