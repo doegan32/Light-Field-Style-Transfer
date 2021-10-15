@@ -14,4 +14,4 @@ We also provide MATLAB scripts for the LFEC metric [] and our proposed LFAC metr
 
 
 ## References
-[2] P. David, M. L. Pendu, and C. Guillemot, “Angularly con-sistent light field video interpolation,” in Proc. IEEE ICME, 2020, pp. 1–6
+[2] P. David, M. L. Pendu, and C. Guillemot, “Angularly consistent light field video interpolation,” in Proc. IEEE ICME, 2020, pp. 1–6
