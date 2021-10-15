@@ -4,9 +4,6 @@ This repository contains the implementation for the paper Light Field Style Tran
 Additional information and sample results are available on the [project webpage](https://v-sense.scss.tcd.ie/research/neural-style-transfer-for-light-fields/)
 
 ## Light Field Style transfer
-
-### Preprocessing
-
 ### Baselines
 
 **Image style transfer**
@@ -16,6 +13,7 @@ Each sub-aperture image of the light field is independently stylized using the m
 A pseudovideo is createad from the light field sub-aperture images, for example, by scanning them in a snake like order from top to bottom or in a spiral order from the centre towards the edge. The video style transfer method described in [3] is then applied to this pseudovideo. 
 
 ### Style transfer with local angular consistency
+**Preprocessing**
 
 ## Metrics
 We also provide MATLAB scripts for the evalation metrics used in the paper - the LFEC metric [4] and our proposed LFAC metric [1]. Explanations of the metrics are contained in the relevant papers. 
