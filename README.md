@@ -10,6 +10,7 @@ Additional information and sample results are available on the [project webpage]
 ### Baselines
 
 **Image style transfer**
+Each sub-aperture image of the light field is independently stylized using the method described in [2]. For this, we use the code provided [here](https://github.com/leongatys/PytorchNeuralStyleTransfer). 
 
 **Video style transfer**
 
