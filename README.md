@@ -2,7 +2,17 @@
 Implementation of Light Field Style Transfer with Local Angular Consistency
 
 
-## Style transfer
+## Light Field Style transfer
+
+### Preprocessing
+
+### Baselines
+
+** Image style transfer **
+
+** Video style transfer **
+
+### Style transfer with local angular consistency
 
 ## Metrics
 We also provide MATLAB scripts for the evalation metrics used in the paper - the LFEC metric [2] and our proposed LFAC metric [1]. Explanations of the metrics are contained in the relevant papers. 
