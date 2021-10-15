@@ -8,9 +8,9 @@ Implementation of Light Field Style Transfer with Local Angular Consistency
 
 ### Baselines
 
-** Image style transfer **
+**Image style transfer**
 
-** Video style transfer **
+**Video style transfer**
 
 ### Style transfer with local angular consistency
 
