@@ -14,7 +14,8 @@ A pseudovideo is createad from the light field sub-aperture images, for example,
 
 ### Style transfer with local angular consistency
 **Preparation**
-The code requires the pretrained VGG19 network [5]. Download this [here](https://bethgelab.org/media/uploads/pytorch_models/vgg_conv.pth) and save to a directory called "/models". 
+- The code requires the pretrained VGG19 network [5]. Download this [here](https://bethgelab.org/media/uploads/pytorch_models/vgg_conv.pth) and save to a directory called "/models". 
+- Saved your desired style image to a directory called "/styles". An example style image is provided with this repository.
 
 The disparity maps for neighbouring light field views must be calculated. 
 
