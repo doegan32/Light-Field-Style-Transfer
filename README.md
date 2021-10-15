@@ -13,6 +13,7 @@ Additional information and sample results are available on the [project webpage]
 Each sub-aperture image of the light field is independently stylized using the method described in [2]. For this, we use the code provided [here](https://github.com/leongatys/PytorchNeuralStyleTransfer). 
 
 **Video style transfer**
+A pseudovideo is createad from the light field sub-aperture images, for example, by scanning them in a snake like order from top to bottom or in a spiral order from the centre towards the edge. The video style transfer method described in [3] is then applied to this pseudovideo. 
 
 ### Style transfer with local angular consistency
 
