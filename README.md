@@ -10,11 +10,11 @@ Additional information and sample results are available on the [project webpage]
 Each sub-aperture image of the light field is independently stylized using the method described in [2]. For this, we use the code provided [here](https://github.com/leongatys/PytorchNeuralStyleTransfer). 
 
 **Video style transfer**
-A pseudovideo is createad from the light field sub-aperture images, for example, by scanning them in a snake like order from top to bottom or in a spiral order from the centre towards the edge. The video style transfer method described in [3] is then applied to this pseudovideo. 
+A pseudovideo is createad from the light field sub-aperture images, for example, by scanning them in a snake like order from top to bottom or in a spiral order from the centre towards the edge. The video style transfer method described in [3] is then applied to this pseudovideo. An implementation of this method is provided [here](https://github.com/manuelruder/artistic-videos).
 
 ### Style transfer with local angular consistency
 **Preparation**
-- The disparity between neighbouring light field viewpoints must be calculated in advance. This can be done using whatever method you choos and we used [DeepFlow](http://lear.inrialpes.fr/src/deepflow/).  
+- The disparity between neighbouring light field viewpoints must be calculated in advance. This can be done using wichever method you choose. We used [DeepFlow](http://lear.inrialpes.fr/src/deepflow/).  
 - The code requires the pretrained VGG19 network [5]. Download this [here](https://bethgelab.org/media/uploads/pytorch_models/vgg_conv.pth) and save to a directory called "/models". 
 - Saved your desired style image to a directory called "/styles". An example style image is provided with this repository.
 
