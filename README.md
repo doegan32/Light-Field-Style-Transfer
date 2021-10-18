@@ -14,7 +14,8 @@ A pseudovideo is createad from the light field sub-aperture images, for example,
 
 ### Style transfer with local angular consistency
 **Preparation**
-- The disparity between neighbouring light field viewpoints must be calculated in advance. This can be done using wichever method you choose. We used [DeepFlow](http://lear.inrialpes.fr/src/deepflow/).  
+- The disparity between neighbouring light field viewpoints and the weights c<sub>s't'<\sub> (as described in section 2.2.2 of the paper) must be calculated in advance. This can be done using wichever method you choose. We used [DeepFlow](http://lear.inrialpes.fr/src/deepflow/). Run the script . For this to work you will need to download DeepFlow and DeepMatching from their [website](http://lear.inrialpes.fr/src/deepflow/) and save the static binaries (deepmatching-static and deepflow2-static) in the main directory of this repository.
+
 - The code requires the pretrained VGG19 network [5]. Download this [here](https://bethgelab.org/media/uploads/pytorch_models/vgg_conv.pth) and save to a directory called "/models". 
 - Saved your desired style image to a directory called "/styles". An example style image is provided with this repository.
 
