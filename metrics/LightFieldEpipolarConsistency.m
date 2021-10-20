@@ -1,3 +1,18 @@
+% =========================================================================
+% =========================================================================
+%
+% Author: Martin Alain <alainm@scss.tcd.ie>
+% This is an implementation of the Light Field Epipolar Consistency (LFAC) metric.
+% If you use or adapt this code in your work (either as a 
+% stand-alone tool or as a component of any algorithm), you need to cite 
+% the following paper:
+% P. David, M. L. Pendu, and C. Guillemot,
+% “Angularly consistent light field video interpolation,”
+% in Proc. IEEE ICME, 2020, pp. 1–6
+%
+% =========================================================================
+% =========================================================================
+
 function [LFEC, LFWarpVar2, LFWarp, LFWarpmask] = LightFieldEpipolarConsistency(LF, dispMap, interp)
 
 if nargin < 3
