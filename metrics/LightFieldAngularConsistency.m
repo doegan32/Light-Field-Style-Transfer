@@ -1,3 +1,19 @@
+% =========================================================================
+% =========================================================================
+%
+% Author: Martin Alain <alainm@scss.tcd.ie>
+% This is an implementation of the Light Field Angular Consistency (LFAC) metric.
+% If you use or adapt this code in your work (either as a 
+% stand-alone tool or as a component of any algorithm), you need to cite 
+% the following paper:
+% D. Egan, M. Alain and A. Smolic, 
+% "Light Field Style Transfer with Local Angular Consistency,"
+% ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2021
+%
+% =========================================================================
+% =========================================================================
+
+
 function [LFAC, LFWarpVar2] = LightFieldAngularConsistency(LF, DF, useLFEC, interp)
 
 if nargin < 3
