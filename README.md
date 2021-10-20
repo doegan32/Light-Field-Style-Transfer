@@ -32,7 +32,7 @@ We also provide MATLAB scripts for the evalation metrics used in the paper - the
 The script for the LFEC is in LightFieldEpipolarConsistency.m. It takes as input the light field to be evaluated (as an array of dimension (s,t,u,v,c)) as well as the disparity map for the **centre view** of the original (i.e. non-edited) light field (as an array of dimension (u,v)). The disparity map can be the ground truth map if avaliable or it can be estimated by some other means. 
 
 ### Light Field Angular Consistency (LFAC) metric
-The script for the LFAC is in LightFieldAngularConsistency.m. It takes as input the light field to be evaluated (as an array of dimension (s,t,u,v,c)) as well as the disparity map for **each view** of the original (i.e. non-edited) light field (as an array of dimension (s,t,u,v)). The disparity map can be the ground truth map if avaliable or it can be estimated by some other means, for example, using the implementation available [here](https://github.com/V-Sense/CPM_PF). 
+The script for the LFAC is in LightFieldAngularConsistency.m. It takes as input the light field to be evaluated (as an array of dimension (s,t,u,v,c)) as well as the disparity map for **each view** of the original (i.e. non-edited) light field (as an array of dimension (s,t,u,v)). The disparity maps can be the ground truth map if avaliable or it can be estimated by some other means, for example, using the implementation available [here](https://github.com/V-Sense/CPM_PF). 
 
 
 
