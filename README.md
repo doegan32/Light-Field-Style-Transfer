@@ -15,14 +15,12 @@ Each sub-aperture image of the light field is independently stylized using the m
 A pseudovideo is createad from the light field sub-aperture images, for example, by scanning them in a snake like order from top to bottom or in a spiral order from the centre towards the edge. The video style transfer method described in [3] is then applied to this pseudovideo. An implementation of this method is provided [here](https://github.com/manuelruder/artistic-videos).
 
 ### Style transfer with local angular consistency
-**Preparation**
 - The disparity between neighbouring light field viewpoints and the weights c<sub>s',t'</sub><sup>s,t</sup> (as described in section 2.2.2 of the paper) must be calculated in advance. This can be done using wichever method you choose. We used [DeepFlow](http://lear.inrialpes.fr/src/deepflow/) together with the consistency check provided [here](https://github.com/manuelruder/artistic-videos). Run the script estimate_disparity.py. For this to work you will need to download DeepFlow and DeepMatching from their [website](http://lear.inrialpes.fr/src/deepflow/) and save the static binaries (deepmatching-static and deepflow2-static) in the main directory of this repository.
 
 - The code requires the pretrained VGG19 network [5]. Download this [here](https://bethgelab.org/media/uploads/pytorch_models/vgg_conv.pth) and save to a directory called "/models". 
 - Save the light field to be stylized in "./lf_input". It should be saved in the format <SAI_name>_<s_idx>_<t_idx>.png, where <SAI_name> is the common name for all images and <s_idx> and <t_idx> correspond to the angular indexes of the light field images.
-- Saved your desired style image to a directory called "./styles". An example style image is provided with this repository.
-
-The disparity maps for neighbouring light field views must be calculated. 
+- Save your desired style image to a directory called "./styles". An example style image is provided with this repository.
+- Run the sctipt stylize_lightfield.py to stylize the light field. 
 
 
 ## Metrics
