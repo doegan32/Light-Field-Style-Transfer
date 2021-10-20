@@ -1,6 +1,8 @@
 # Light Field Style Transfer With Local Angular Consistency
 This repository contains an implementation for the paper Light Field Style Transfer with Local Angular Consistency [1].
 
+![Light field style transfer](teaser.png)
+
 Additional information and sample results are available on the [project webpage](https://v-sense.scss.tcd.ie/research/neural-style-transfer-for-light-fields/)
 
 ## Light Field Style transfer
